@@ -1,8 +1,9 @@
 #creacion de un sistema para gestionar tecnicos, la salida final debe de ser perfil_tecnico
+#todos los datos utulizados en este codigo son de referencia y no representan datos reales
 
 #Datos simples
 id_empleado = 1233
-nombre_completo = "Luis Angel Nava" 
+nombre_completo = "SGT" 
 estado = True
 salario_hora = 255.50
 salario_dia = salario_hora * 8 
@@ -46,8 +47,6 @@ perfil_tecnico = {
 
 
 #Manipulacion de datos y acceso al Perfil
-
-#Usamos comillas simples '' adentro para no chocar con las "" de la f string 
 
 print(f"EL nombre del técnico es: {perfil_tecnico['nombre_completo']}")
 print(f"El salario por hora es de: ${perfil_tecnico['salario_hora']}pesos mexicanos")
